@@ -244,26 +244,32 @@ ul {
 
 #visitvisa {
     margin-left: 105px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #studyabroad {
-    margin-left: 83px;
+    margin-left: 95px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #workpermit {
-    margin-left: 63px;
+    margin-left: 75px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #holidaypackages {
-    margin-left: 65px;
+    margin-left: 72px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #immigiration {
     margin-left: 95px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #training {
-    margin-left: 65px;
+    margin-left: 75px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 .services-img {
