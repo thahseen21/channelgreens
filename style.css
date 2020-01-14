@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-scrolled {
+    background-color: #eeeeee;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
+.navbar-top {
+    background-color: transparent;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-text {
+    text-transform: uppercase;
+    padding: 17px 12px 20px 15px;
+    font-family: 'Inconsolata', monospace;
+    color: grey;
+}
+
+.left-side {
+    margin-right: 60px;
+}
+
+.left-side a:hover {
+    background-color: grey;
+    color: #eeeeee;
+    transition-duration: 0.4s;
+}
+
+.right-side {
+    margin-left: 100px;
+}
+
+.container {
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, .8)), url(images/graduation.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 150px 0px 210px 0px;
+}
+
+.home-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1030px;
+}
+
+#heading {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #eeeeee;
+    font-weight: 500;
+    text-align: center;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+
+#home-content {
+    margin: 0px 5px 60px 0px;
+    padding: 0px 200px 0px 200px;
+    font-size: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.findoutmore {
+    margin: 0;
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    background-color: #eeeeee;
+    border-radius: 10rem;
+    color: grey;
+    border-color: grey;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.btnhome a:hover {
+    background-color: grey;
+    color: #eeeeee;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.about-img {
+    padding: 100px 300px 120px 300px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(94, 94, 94, 0.2)), url(images/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1030px;
+}
+
+.about-heading {
+    font-family: 'Anton', sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+#about-writings {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-btn {
+    margin: 0;
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    background-color: #eeeeee;
+    border-radius: 10rem;
+    color: grey;
+    border-color: grey;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align: center;
+}
+
+.about-btn:hover {
+    background-color: grey;
+    color: #eeeeee;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.services-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1030px;
+    text-align: center;
+}
+
+.services-wrapper #service-heading {
+    font-family: 'Anton', sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 36px;
+    margin-bottom: -15px;
+}
+
+#service-writings {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.service-img-wrap {
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.service-imgs {
+    height: 230px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 3px solid grey;
+    padding: 4px;
+    background-attachment: lightgrey;
+}
+
+.blur {
+    display: inline-block;
+    position: relative;
+    transition: .4s;
+}
+
+.blur img {
+    transition: 0.4s;
+}
+
+.blur:hover img {
+    filter: blur(1px) brightness(60%);
+}
+
+.blur:not(img) {
+    /* position: absolute; */
+    z-index: 1;
+    top: 30%;
+    /* width: 100%; */
+    text-align: center;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.blur h2 {
+    top: 45%;
+    position: absolute;
+    margin-left: 70px;
+    color: lightgrey;
+    opacity: 0;
+}
+
+.blur:hover :not(img) {
+    opacity: 1;
+}
+
+#visitvisa {
+    margin-left: 105px;
+}
+
+#studyabroad {
+    margin-left: 83px;
+}
+
+#workpermit {
+    margin-left: 63px;
+}
+
+#holidaypackages {
+    margin-left: 65px;
+}
+
+#immigiration {
+    margin-left: 95px;
+}
+
+#training {
+    margin-left: 65px;
+}
