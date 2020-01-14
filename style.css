@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     position: relative;
@@ -22,6 +26,7 @@ body {
     background-color: #eeeeee;
     transition: ease-in;
     transition-duration: 0.2s;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
 .navbar-top {
@@ -118,7 +123,7 @@ ul {
 
 .about-img {
     padding: 100px 300px 120px 300px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(94, 94, 94, 0.2)), url(images/about.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(206, 206, 206, 0.9)), url(images/about.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,6 +171,7 @@ ul {
 }
 
 .services-wrapper {
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1030px;
@@ -228,7 +234,7 @@ ul {
     top: 45%;
     position: absolute;
     margin-left: 70px;
-    color: lightgrey;
+    color: white;
     opacity: 0;
 }
 
@@ -258,4 +264,11 @@ ul {
 
 #training {
     margin-left: 65px;
+}
+
+.services-img {
+    background-image: linear-gradient(rgba(206, 206, 206, 0.9), rgba(255, 255, 255, 0.7)), url(images/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
