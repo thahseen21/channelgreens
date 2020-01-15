@@ -17,21 +17,26 @@
 
 <body>
     <div class="navbar-scrolled navbar-top">
-        <nav>
-            <div class="nav-wrapper navbar-scrolled navbar-top" id="nav-wrapper">
-                <div class="right-side">
-                    <a id="logo" href="#home"><img src="images/logo2.png" alt="CHANNEL_Greens_logo" height="50px"></a>
+
+        <div class="nav-wrapper navbar-scrolled navbar-top" id="nav-wrapper">
+            <div class="right-side">
+                <a id="logo" href="#home"><img src="images/logo2.png" alt="CHANNEL_Greens_logo" height="50px"></a>
+            </div>
+            <div class="left-side">
+                <div class="dropdown">
+                    <button onclick="navbarresponsive()" class="dropdownbtn"><img src="images/menu-button.png" alt="menu-button" height="20px"></button>
                 </div>
-                <div class="left-side">
-                    <ul>
+                <nav>
+                    <ul class="active inactive" id="dropdownbtn">
                         <a class="nav-text" href="#home">home</a>
                         <a class="nav-text" href="#about">about us</a>
                         <a class="nav-text" href="#services">services</a>
                         <a class="nav-text" href="#contact">contact</a>
                     </ul>
-                </div>
+                </nav>
             </div>
-        </nav>
+        </div>
+
     </div>
 
     <div class="container" id="home">
