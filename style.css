@@ -278,3 +278,61 @@ ul {
     background-size: cover;
     background-position: center;
 }
+
+.contact-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1030px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.contact-writings {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.left-side-contact {
+    margin-left: 100px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.left-side-contact h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 6px;
+}
+
+.right-side-contact {
+    margin-right: 100px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.right-side-contact h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 6px;
+}
+
+#contact-header {
+    font-family: 'Anton', sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.contact-bg {
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url(images/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+}
