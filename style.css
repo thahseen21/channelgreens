@@ -81,6 +81,7 @@ ul {
 
 .container {
     height: 100%;
+    width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, .8)), url(images/graduation.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -369,15 +370,74 @@ footer {
     }
     nav .active {
         left: 0%;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
     }
     nav .inactive {
         left: -100%;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
     }
     .left-side ul a {
         display: block;
     }
     .dropdown {
         display: relative;
+    }
+    /* home */
+    .container {}
+    .right-side {
+        margin-left: 35px;
+    }
+    #heading {
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        color: #eeeeee;
+        font-weight: 500;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    #home-content {
+        margin: 0px 0px 40px 0px;
+        padding: 0px 20px 0px 20px;
+        font-size: 20px;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+    .about-img {
+        padding: 20px 20px 0px 20px;
+    }
+    .about-wrapper {
+        padding: 0px;
+        margin: 0px;
+        max-width: auto;
+    }
+    .about-heading {
+        font-family: 'Anton', sans-serif;
+        color: grey;
+        font-weight: 100;
+    }
+    #about-writings {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .service-img-wrap {}
+    .contact-writings {
+        display: block;
+        padding: 0%;
+        margin: 0;
+    }
+    .left-side-contact {
+        margin: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .right-side-contact {
+        margin: 0px;
+        padding: 0px;
     }
 }
 
