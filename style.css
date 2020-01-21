@@ -96,6 +96,17 @@ ul {
     max-width: 1030px;
 }
 
+.inactive-about{
+    top: 100%;
+    display: none;
+}
+.active-about{
+    top: 0%;
+    display: block;
+    transition: ease-in-out;
+    transition-duration:0.5s ;
+}
+
 #heading {
     font-size: 50px;
     font-family: 'Anton', sans-serif;
@@ -425,7 +436,43 @@ footer {
         font-size: 20px;
         text-align: center;
     }
-    .service-img-wrap {}
+
+    .service-imgs{
+        margin: 0px;
+    }
+    .blur h2{
+        top:35%;
+    }
+    #visitvisa {
+        margin-left: 70px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    
+    #studyabroad {
+        margin-left: 55px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    
+    #workpermit {
+        margin-left: 30px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    
+    #holidaypackages {
+        margin-left: 30px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    
+    #immigiration {
+        margin-left: 58px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    
+    #training {
+        margin-left: 30px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    
     .contact-writings {
         display: block;
         padding: 0%;
