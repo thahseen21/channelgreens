@@ -16,7 +16,6 @@ function scrollFunction() {
 
 function navbarresponsive() {
     var x = document.getElementById("dropdownbtn");
-    console.log(x);
     if (x.className === "inactive") {
         console.log("im here");
         x.classList.add("active");
@@ -27,3 +26,25 @@ function navbarresponsive() {
 
     }
 };
+
+function dropdown() {
+    var y = document.getElementById("ielts");
+    if (y.className == "ielts-active") {
+        y.classList.remove("ielts-active");
+        y.classList.add("ielts-inactive");
+    } else {
+        y.classList.add("ielts-active");
+        y.classList.remove("ielts-inactive");
+    }
+}
+
+function dropdowngerman() {
+    var y = document.getElementById("german");
+    if (y.className == "german-active") {
+        y.classList.remove("german-active");
+        y.classList.add("german-inactive");
+    } else {
+        y.classList.add("german-active");
+        y.classList.remove("german-inactive");
+    }
+}

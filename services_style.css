@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+}
+
+#left-side-bar {
+    background-color: #9e9e9e;
+    padding-bottom: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    line-height: 3;
+    color: white;
+}
+
+#logo {
+    margin: 120px 50px 0px 0px;
+    text-align: end;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#services {
+    font-size: 18px;
+    text-align: end;
+}
+
+#services a {
+    padding-right: 68px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#services a:hover {
+    background-color: white;
+    color: grey;
+}
+
+#visit-visa {
+    background-image: url(images/services.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    margin-right: auto;
+    max-width: 1030px;
+    font-size: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding-bottom: 480px;
+}
+
+#visit-visa p {
+    margin: 70px 70px 0 70px;
+}
+
+#training-services {
+    margin-left: 20%;
+    margin-right: auto;
+    max-width: 1030px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#ielts-wrapper {
+    padding: 50px 70px 0 70px;
+}
+
+#ielts-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ielts-dropdown {
+    background: transparent;
+    border: 0;
+}
+
+.ielts-active {
+    display: block;
+}
+
+.ielts-inactive {
+    display: none;
+}
+
+#german-wrapper {
+    padding: 50px 70px 0 70px;
+}
+
+#german-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.german-active {
+    display: block;
+}
+
+.german-inactive {
+    display: none;
+}
+
+#training-services h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+#right-side {
+    margin-left: 20%;
+    margin-right: auto;
+    max-width: 1030px;
+    display: flex;
+}
+
+#immigration-wrapper {
+    padding: 50px 0 0 250px;
+}
+
+#workpermit-wrapper {
+    padding: 50px 0 0 250px;
+}
