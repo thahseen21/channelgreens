@@ -125,10 +125,23 @@ a {
     display: flex;
 }
 
-#immigration-wrapper {
+#workpermit-wrapper {
     padding: 50px 0 0 250px;
 }
 
-#workpermit-wrapper {
-    padding: 50px 0 0 250px;
+#immigration-wrapper {
+    display: inline;
+}
+
+#immgiration-wrapper a {
+    color: blue;
+    display: inline;
+}
+
+#immgiration-wrapper p {
+    display: inline;
+}
+
+#immgiration-wrapper a p {
+    line-height: 2px;
 }
