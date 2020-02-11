@@ -1,7 +1,13 @@
 * {
     box-sizing: border-box;
 }
-
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(241, 241, 241, 0.99)), url(images/services.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -52,31 +58,33 @@ a {
 }
 
 #visit-visa {
-    background-image: url(images/services.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-left: 20%;
     margin-right: auto;
     max-width: 1030px;
-    font-size: 20px;
     font-family: 'Archivo Narrow', sans-serif;
-    padding-bottom: 480px;
+    display: flex;
+    padding: 50px 50px 0 50px;
 }
-
-#visit-visa p {
-    margin: 70px 70px 0 70px;
+#visit-visa h3{
+    font-family: 'Anton', sans-serif;
+    color: #424242;
 }
-
 #training-services {
     margin-left: 20%;
     margin-right: auto;
     max-width: 1030px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #ielts-wrapper {
     padding: 50px 70px 0 70px;
+}
+
+#ielts-wrapper h1{
+    font-size: 30px;
+}
+#german-wrapper h1{
+    font-size: 30px;
 }
 
 #ielts-heading {
@@ -116,6 +124,7 @@ a {
 
 #training-services h1 {
     font-family: 'Anton', sans-serif;
+    color: #424242;
 }
 
 #right-side {
@@ -144,4 +153,29 @@ a {
 
 #immgiration-wrapper a p {
     line-height: 2px;
+}
+
+/* study abroad */
+
+#right-side-studyabroad{
+    display: flex;
+    margin-left: 20%;
+    margin-right: auto;
+    max-width: 1030px;
+    
+}
+
+#right-side-studyabroad h1, h4 {
+    font-family: 'Anton', sans-serif;
+    color: #424242;
+}
+
+#right-side-studyabroad p,ul  {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+#right-side-studyabroad p{
+    font-size: 19   px;
+}
+#right-side-studyabroad{
+    padding: 30px 50px 0 50px;
 }
