@@ -1,13 +1,15 @@
 * {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(241, 241, 241, 0.99)), url(images/services.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -57,18 +59,62 @@ a {
     color: grey;
 }
 
+
+/* visit-visa */
+
+#container-vv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+#visit-visa img {
+    height: 200px;
+    opacity: 20%;
+}
+
+.asd p {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #424242;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.asd {
+    width: auto;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.text-over-img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+}
+
 #visit-visa {
     margin-left: 20%;
     margin-right: auto;
     max-width: 1030px;
     font-family: 'Archivo Narrow', sans-serif;
     display: flex;
-    padding: 50px 50px 0 50px;
+    padding: 50px 70px 50px 70px;
 }
-#visit-visa h3{
+
+#visit-visa h3,
+h2 {
     font-family: 'Anton', sans-serif;
     color: #424242;
 }
+
 #training-services {
     margin-left: 20%;
     margin-right: auto;
@@ -80,16 +126,28 @@ a {
     padding: 50px 70px 0 70px;
 }
 
-#ielts-wrapper h1{
+#ielts-wrapper h1 {
     font-size: 30px;
 }
-#german-wrapper h1{
+
+#ielts-heading:hover {
+    text-shadow: 2px 6px #e0e0e0;
+    transition-duration: 0.3s;
+}
+
+#german-heading:hover {
+    text-shadow: 2px 6px #e0e0e0;
+    transition-duration: 0.3s;
+}
+
+#german-wrapper h1 {
     font-size: 30px;
 }
 
 #ielts-heading {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 #ielts-dropdown {
@@ -106,12 +164,13 @@ a {
 }
 
 #german-wrapper {
-    padding: 50px 70px 0 70px;
+    padding: 50px 70px 50px 70px;
 }
 
 #german-heading {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .german-active {
@@ -131,51 +190,89 @@ a {
     margin-left: 20%;
     margin-right: auto;
     max-width: 1030px;
-    display: flex;
 }
 
 #workpermit-wrapper {
     padding: 50px 0 0 250px;
 }
 
+
+/* immigration section */
+
 #immigration-wrapper {
-    display: inline;
+    padding: 50px 70px 50px 70px;
 }
 
-#immgiration-wrapper a {
+#immigration-wrapper a {
     color: blue;
     display: inline;
 }
 
-#immgiration-wrapper p {
-    display: inline;
-}
-
-#immgiration-wrapper a p {
+#immigration-wrapper a {
     line-height: 2px;
 }
 
+#immigration-wrapper h1,
+h4,
+h3 {
+    color: #424242;
+    font-family: 'Anton', sans-serif;
+}
+
+#immigration-wrapper p {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#inred {
+    color: red
+}
+
+
 /* study abroad */
 
-#right-side-studyabroad{
+#right-side-studyabroad {
     display: flex;
     margin-left: 20%;
     margin-right: auto;
     max-width: 1030px;
-    
 }
 
-#right-side-studyabroad h1, h4 {
+#right-side-studyabroad h1,
+h4 {
     font-family: 'Anton', sans-serif;
     color: #424242;
 }
 
-#right-side-studyabroad p,ul  {
+#right-side-studyabroad p,
+ul {
     font-family: 'Archivo Narrow', sans-serif;
 }
-#right-side-studyabroad p{
-    font-size: 19   px;
+
+#right-side-studyabroad p {
+    font-size: 19 px;
 }
-#right-side-studyabroad{
-    padding: 30px 50px 0 50px;
+
+#right-side-studyabroad {
+    padding: 50px 70px 50px 70px;
+}
+
+
+/* holiday packages */
+
+#international-wrapper,
+#domestic-wrapper {
+    padding: 50px 70px 0px 70px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#holiday-head {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+}
+
+#holiday-head button {
+    background: none;
+    border: none;
 }
