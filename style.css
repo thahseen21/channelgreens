@@ -12,6 +12,7 @@ body {
     text-align: center;
 }
 
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -29,11 +30,11 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
-.navbar-top {
+/* .navbar-top {
     background-color: transparent;
     transition: ease-in;
     transition-duration: 0.2s;
-}
+} */
 
 a {
     text-decoration: none;
@@ -45,13 +46,15 @@ ul {
 
 .nav-text {
     text-transform: uppercase;
-    padding: 17px 12px 20px 15px;
+    font-size: 18px;
+    padding: 25px 12px 31px 15px;
     font-family: 'Inconsolata', monospace;
     color: grey;
 }
 
 .left-side {
     margin-right: 60px;
+    margin-top: 8px;
 }
 
 .left-side .nav-text:hover {
@@ -249,8 +252,9 @@ ul {
     margin-right: auto;
     max-width: 1030px;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+
 }
 
 .contact-writings {
@@ -274,6 +278,11 @@ ul {
     margin-right: 100px;
     font-family: 'Archivo Narrow', sans-serif;
 }
+.middle-contact{
+    margin-top: 200px;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-left: -50px  ;
+}
 
 .right-side-contact h2 {
     text-transform: uppercase;
@@ -290,17 +299,13 @@ ul {
 
 .contact-bg {
     height: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url(images/contact-us.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.863), rgb(255, 255, 255)), url(images/contact-us.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: block;
 }
 
-footer {
-    background-color: grey;
-    color: white;
-}
 
 .resopnsive-navbar {
     display: block;
@@ -396,12 +401,25 @@ footer {
         display: none;
     }
 }
+footer {
+    background-color: white;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
 
-footer p {
+.footer-writings {
     text-align: center;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 600;
+    display: flex;
     padding-left: 9px;
+    margin-left: 50px;
+}
+footer a{
+    color: grey;
+    list-style: none;
 }
 
 #foot {
@@ -409,4 +427,15 @@ footer p {
     margin-right: auto;
     display: flex;
     justify-content: center;
+    text-indent:3px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
