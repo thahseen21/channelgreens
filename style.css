@@ -232,6 +232,12 @@ ul {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+.box-right-down {
+    display: flex;
+    margin-left: 200px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
 #service-img img:hover {
     height: 70px;
     transition: ease-in-out;
@@ -301,7 +307,7 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width:786px) {
+@media only screen and (max-width:1024px) {
     nav ul {
         position: absolute;
         display: block;
@@ -379,9 +385,13 @@ footer {
         margin: 0px;
         padding: 0px;
     }
+    .left-right-wrapper {
+        display: grid;
+        grid-template-columns: 400px 700px;
+    }
 }
 
-@media only screen and (min-width:788px) {
+@media only screen and (min-width:1025px) {
     .dropdown {
         display: none;
     }
