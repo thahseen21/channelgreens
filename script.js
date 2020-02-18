@@ -48,3 +48,15 @@ function dropdowngerman() {
         y.classList.remove("german-inactive");
     }
 }
+
+function slidebarresponsive() {
+    var x = document.getElementById("left-side-bar");
+    if (x.className === "s-inactive") {
+        x.classList.add("s-active");
+        x.classList.remove("s-inactive");
+    } else {
+        x.classList.remove("s-active");
+        x.classList.add("s-inactive");
+
+    }
+};

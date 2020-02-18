@@ -276,3 +276,96 @@ ul {
     background: none;
     border: none;
 }
+
+@media only screen and (max-width:1024px) {
+    #left-side-bar {
+        position: fixed;
+        display: block;
+        top: 49px;
+        background: #9e9e9e;
+        width: 100%;
+        text-align: left;
+        height: calc(100vh-50px);
+    }
+    .s-active {
+        left: 0%;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    .s-inactive {
+        left: -100%;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    #right-side {
+        margin: 0;
+    }
+    #immigration-wrapper {
+        padding: 50px 20px 50px 20px;
+    }
+    #right-side-studyabroad {
+        margin: 0;
+        padding: 50px 20px 50px 20px;
+    }
+    #training-services {
+        margin: 0;
+        padding: 50px 20px 50px 20px;
+    }
+    #ielts-wrapper {
+        padding: 50px 0 0 0;
+    }
+    #german-wrapper {
+        padding: 50px 0 0 0;
+    }
+    #container-vv {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    #visit-visa {
+        margin: 0%;
+        padding: 50px 20px 50px 20px;
+    }
+    #visit-visa img {
+        height: 100px;
+        opacity: 20%;
+    }
+    .asd p {
+        font-family: 'Archivo Narrow', sans-serif;
+        color: #424242;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .asd {
+        width: auto;
+        height: 200px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+    }
+    .text-over-img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .slidebtn {
+        display: none;
+    }
+}
+
+.slidebtn {
+    background: transparent;
+    border: 0;
+    padding: 17px 15px 12.5px 15px;
+    z-index: 1000;
+    position: fixed;
+}
